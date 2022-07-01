@@ -11,18 +11,18 @@ function Nav()
                     fontSize: '20px'
                 }}>
                     <div style={{ margin: '10px' }}>
-                        <NavLink to="/" style={({ isActive }) => ({color: isActive ? 'red' : 'white' })}>
+                        <NavLink to="/home" style={({ isActive }) => ({color: isActive ? 'green' : 'white' })}>
                             Home
                         </NavLink>
                     </div>
                     <div style={{ margin: '10px' }}>
-                        <NavLink to="/about" style={({ isActive }) => ({color: isActive ? 'red' : 'white' })}>
+                        <NavLink to="/about" style={({ isActive }) => ({color: isActive ? 'green' : 'white' })}>
                             About
                         </NavLink>
                     </div>
                     <div style={{ margin: '10px' }}>
-                        <NavLink to="/contact" style={({ isActive }) => ({color: isActive ? 'red' : 'white' })}>
-                            Contact
+                        <NavLink to="/contact" style={({ isActive }) => ({color: isActive ? 'green' : 'white' })}>
+                            List
                         </NavLink>
                     </div>
                 </div>
