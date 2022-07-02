@@ -20,11 +20,11 @@ function Nav()
                             About
                         </NavLink>
                     </div>
-                    <div style={{ margin: '10px' }}>
+                    {/* <div style={{ margin: '10px' }}>
                         <NavLink to="/contact" style={({ isActive }) => ({color: isActive ? 'green' : 'white' })}>
                             List
                         </NavLink>
-                    </div>
+                    </div> */}
                 </div>
     );
 }

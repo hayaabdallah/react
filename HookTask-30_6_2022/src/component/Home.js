@@ -28,7 +28,7 @@ const Home = ()=>
               <img src={'https://image.tmdb.org/t/p/w500/'+ a.backdrop_path} className="card-img-top" alt="Card Image"/>
            <h5 class="card-title">{a.title}</h5>
            <p class="card-text">{a.overview}</p>
-           {/* <Link to={'/movie/'+a.id} className="btn btn-success mt-auto align-self-start">Details</Link> */}
+           <Link to={'/movie/'+a.id} className="btn btn-success mt-auto align-self-start">Details</Link>
          </div>
          </div> 
          ))}
